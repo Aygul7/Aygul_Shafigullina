@@ -40,21 +40,21 @@ students = [
 ]
 Создайте словарь, в котором ключами будут названия курсов, а значениями — списки студентов, которые изучают этот курс."""
 
-# students = [
-#     ("Анна", "Python"),
-#     ("Борис", "Java"),
-#     ("Виктор", "Python"),
-#     ("Галина", "C++"),
-#     ("Дмитрий", "Python")
-# ]
-#
-# courses = {}
-# for student, course in students:
-#     if course not in courses:
-#         courses[course] = []
-#     courses[course].append(student)
-#
-# print(courses)
+students = [
+    ("Анна", "Python"),
+    ("Борис", "Java"),
+    ("Виктор", "Python"),
+    ("Галина", "C++"),
+    ("Дмитрий", "Python")
+]
+
+courses = {}
+for student, course in students:
+    if course not in courses:
+        courses[course] = []
+    courses[course].append(student)
+
+print(courses)
 
 """5. Создайте словарь, содержащий оценки студентов:
 Используя метод pop(), удалите студента с самой низкой оценкой и выведите обновленный словарь."""
@@ -78,7 +78,7 @@ exchange_rates = {"USD": 90, "EUR": 98, "GBP": 115}
 Пользователь вводит валюту (USD, EUR или GBP).
 Если валюта есть в словаре, выведите ее курс, иначе выведите "Неизвестная валюта". Если валюта не известна, то
 добавьте новую валюты со значением None"""
-exchange_rates = {"USD": 90, "EUR": 98, "GBP": 115}
+# exchange_rates = {"USD": 90, "EUR": 98, "GBP": 115}
 # print("Доступные валюты:", list(exchange_rates.keys()))
 #
 # # Получаем ввод от пользователя
