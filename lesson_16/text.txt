@@ -1,0 +1,7 @@
+Hello world
+Python is great
+I love coding in Python
+Java is also good
+Ожидаемый вывод:
+Python is great
+I love coding in Python

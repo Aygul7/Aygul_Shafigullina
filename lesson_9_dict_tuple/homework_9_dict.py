@@ -38,7 +38,8 @@ students = [
     ("Галина", "C++"),
     ("Дмитрий", "Python")
 ]
-Создайте словарь, в котором ключами будут названия курсов, а значениями — списки студентов, которые изучают этот курс."""
+Создайте словарь, в котором ключами будут названия курсов, а значениями — списки студентов, 
+которые изучают этот курс."""
 
 students = [
     ("Анна", "Python"),
@@ -50,9 +51,7 @@ students = [
 
 courses = {}
 for student, course in students:
-    if course not in courses:
-        courses[course] = []
-    courses[course].append(student)
+    courses[student] = course
 
 print(courses)
 
